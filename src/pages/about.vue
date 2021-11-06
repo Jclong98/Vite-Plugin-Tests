@@ -5,7 +5,7 @@ useHead({
 </script>
 
 <template>
-  <div class="w-prose mx-auto">
+  <div>
     <h1 class="text-3xl">This is the about page!</h1>
     <p class="my-5">
       This project is just a learning experience for me. A few notable things
@@ -39,4 +39,5 @@ useHead({
   </div>
 </template>
 
-<style></style>
+<style>
+</style>

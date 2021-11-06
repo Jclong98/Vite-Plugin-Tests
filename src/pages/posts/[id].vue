@@ -30,11 +30,12 @@ onMounted(() => {
 </script>
 
 <template>
-  <div class="mx-auto w-prose">
+  <div>
     <h1 class="text-size-4xl">{{ post.title }}</h1>
 
     <p class="my-4">
-      Author: <span class="font-bold">{{ user.name }}</span>
+      Author:
+      <span class="font-bold">{{ user.name }}</span>
     </p>
 
     <p>{{ post.body }}</p>

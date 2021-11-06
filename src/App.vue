@@ -5,7 +5,7 @@ import NavBar from './components/NavBar.vue'
 <template>
   <NavBar></NavBar>
 
-  <main class="p-3">
+  <main class="p-3 max-w-prose mx-auto">
     <router-view></router-view>
   </main>
 </template>
