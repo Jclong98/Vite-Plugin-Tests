@@ -36,6 +36,22 @@ const links = ref([
         >
           {{ link.text }}
         </router-link>
+        <a
+          href="https://github.com/Jclong98/Vite-Plugin-Tests"
+          class="
+            ml-2
+            p-2
+            w-8
+            h-8
+            flex
+            items-center
+            justify-center
+            rounded-full
+            font-semibold
+          "
+        >
+          <mdi-github />
+        </a>
         <button
           class="
             ml-2

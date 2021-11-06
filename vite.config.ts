@@ -12,7 +12,7 @@ const markdownWrapperClasses = 'prose prose-sm m-auto text-left'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '.',
+  base: '/Vite-Plugin-Tests/',
   resolve: {
     alias: {
       '@/*': path.resolve(__dirname, './src/*'),

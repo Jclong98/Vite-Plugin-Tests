@@ -6,6 +6,8 @@ declare module 'vue' {
   export interface GlobalComponents {
     CounterButton: typeof import('./components/CounterButton.vue')['default']
     HelloWorld: typeof import('./components/HelloWorld.vue')['default']
+    MdiChevronRight: typeof import('~icons/mdi/chevron-right')['default']
+    MdiGithub: typeof import('~icons/mdi/github')['default']
     MdiWeatherNight: typeof import('~icons/mdi/weather-night')['default']
     MdiWhiteBalanceSunny: typeof import('~icons/mdi/white-balance-sunny')['default']
     NavBar: typeof import('./components/NavBar.vue')['default']

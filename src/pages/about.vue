@@ -12,7 +12,13 @@ useHead({
       that I've learned while creating this project:
     </p>
     <ul class="list-circle pl-5">
-      <li>Vite and Vue with TypeScript</li>
+      <li>
+        Vite
+        <ul class="list-circle pl-5">
+          <li>deployment on Github Pages</li>
+        </ul>
+      </li>
+      <li>Vue with TypeScript</li>
       <li>Vue script setup</li>
       <li>Vususe</li>
       <li>
