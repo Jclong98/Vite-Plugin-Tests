@@ -20,7 +20,7 @@ useHead({
       </li>
       <li>Vue with TypeScript</li>
       <li>Vue script setup</li>
-      <li>Vususe</li>
+      <li>Vueuse</li>
       <li>
         How To use Vite Plugings
         <ul class="list-circle pl-5">
