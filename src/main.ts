@@ -1,7 +1,7 @@
 import { createApp } from 'vue'
 import { createHead } from '@vueuse/head'
 
-import { createRouter, createWebHistory } from 'vue-router'
+import { createRouter, createWebHashHistory } from 'vue-router'
 import routes from 'virtual:generated-pages'
 
 import App from './App.vue'
@@ -12,7 +12,7 @@ import 'virtual:windi.css'
 // https://github.com/posva/vite-tailwind-starter/blob/master/src/main.js
 const app = createApp(App)
 const router = createRouter({
-  history: createWebHistory('/Vite-Plugin-Tests/'),
+  history: createWebHashHistory('/Vite-Plugin-Tests/'),
   routes: routes,
 })
 const head = createHead()
